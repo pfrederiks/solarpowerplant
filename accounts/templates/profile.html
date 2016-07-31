@@ -1,0 +1,60 @@
+{% extends "parent.html" %}
+{% load i18n %}
+
+{% block contents %}
+<h1>{% trans "Profile" %}</h1>
+
+<p>
+{% blocktrans %}
+Thank you for taking the time to help us in our research.
+First we would like to have your contact data.
+Without it you won't win any of our prizes.
+Your personal data will be handled carefully and we won't supply it to third parties.
+We will only send you information by email if you tick the last box.
+If you still rather stay anonymous,
+{% endblocktrans %}
+<a href="/questionnaire/">{% trans "just go straight to the questionnaire." %}</a>
+</p>
+
+{% if form.errors %}
+{{ form.errors }}
+{% endif %}
+
+
+<form action="/accounts/profile/" method="POST">
+{% csrf_token %}
+<table>
+<tr>
+<th>{{ form.first_name.label_tag }}</th>
+<th>{{ form.surname.label_tag }}</th>
+<th>{{ form.initials.label_tag }}</th>
+</tr>
+<tr>
+<td>{{ form.first_name }}</td>
+<td>{{ form.surname }}</td>
+<td>{{ form.initials }}</td>
+</tr>
+</table>
+
+<table>
+<tr><th>{{ form.email_address.label_tag }}</th></tr>
+<tr><td>{{ form.email_address }}</td></tr>
+</table>
+<table>
+<tr><th>{{ form.street.label_tag }}</th><th>{{ form.nr.label_tag }}</th><th>{{ form.suffix.label_tag }}</th></tr>
+<tr><td>{{ form.street }}</td><td>{{ form.nr }}</td><td>{{ form.suffix }}</td></tr>
+</table>
+<table>
+<tr><th>{{ form.zipcode.label_tag }}</th><th>{{ form.city.label_tag }}</th></tr>
+<tr><td>{{ form.zipcode }}</td><td>{{ form.city }}</td></tr>
+</table>
+<table>
+<tr><th>{{ form.keep_me_up_to_date.label_tag }}</th><td>{{ form.keep_me_up_to_date }}</td></tr>
+<tr><td><input type="submit" value="{% trans "Submit" %}" /></td></tr>
+</table>
+</form>
+
+
+
+{% endblock %}
+

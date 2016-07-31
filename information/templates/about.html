@@ -1,0 +1,63 @@
+{% extends "parent.html" %}
+{% load i18n %}
+
+{% block contents %}
+<h1>{% trans "About" %}</h1>
+
+<h2>{% trans "The project" %}</h2>
+
+<p>
+{% blocktrans %}
+Plans for a Virtual PV plant have been circulating within <REDACTED> for some time now. Recently funds were made available through the merger with <REDACTED> Nederland to research the possibilities. This project is a collaboration between REDACTED. Preliminary research is done by four students of the masters Sustainable Development and Energy Science, as part of their Consultancy Project. This website is part of that preliminary research and will be the start of the project in the future. Our main research goal is to determine if there is sufficient need for the project.
+{% endblocktrans %}
+</p>
+
+
+<h2 id="contact">{% trans "Project Team" %}</h2>
+
+<p>
+{% blocktrans %}
+Our project team consists of:
+{% endblocktrans %}
+</p>
+
+
+<em>Paul Frederiks</em>
+<p>
+Master: Sustainable Development<br />
+Email: <a href="mailto:paul@zonnestroomcentrale.nl">paul@zonnestroomcentrale.nl</a>
+</p>
+
+
+<em>Roel REDACTED/em>
+<p>
+Master: Energy Science<br />
+Email: <a href="mailto:roel@zonnestroomcentrale.nl">roel@zonnestroomcentrale.nl</a>
+</p>
+
+
+<em>Iliya REDACTED</em>
+<p>
+Master: Energy Science<br />
+Email: <a href="mailto:iliya@zonnestroomcentrale.nl">iliya@zonnestroomcentrale.nl</a>
+</p>
+
+
+<em>Daniel REDACTED</em>
+<p>
+Master: Energy Science<br />
+Email: <a href="mailto:daniel@zonnestroomcentrale.nl">daniel@zonnestroomcentrale.nl</a>
+</p>
+
+
+<h2>{% trans "Website" %}</h2>
+<p>
+{% blocktrans %}
+This website is developed and maintained by Paul Frederiks.
+It is hosted at <a href="http://www.quantact.com">Quantact</a> using the OpenVZ 128 plan. The site is developed using the <a href="http://www.djangoproject.com">Django Framework</a>. The design is based on a stylesheet made publicly available by <a href="http://www.contenteddesigns.org">Contended Design</a>.
+{% endblocktrans %}
+</p>
+
+{% endblock %}
+
+

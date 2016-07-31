@@ -1,0 +1,693 @@
+# Vertaling in Nederlands
+# Copyright (C) 2016
+# Paul Frederiks p.frederiks@developers.nl 2016
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-01 02:35+0200\n"
+"PO-Revision-Date: 2016-08-01 02:35+0200\n"
+"Last-Translator: Paul Frederiks\n"
+"Language-Team: Nederlands\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: accounts/models.py:6
+msgid "First Name"
+msgstr "Voornaam"
+
+#: accounts/models.py:7
+msgid "Initials"
+msgstr "Voorletters"
+
+#: accounts/models.py:8
+msgid "Surname"
+msgstr "Achternaam"
+
+#: accounts/models.py:9
+msgid "Email Address"
+msgstr "E-mail adres"
+
+#: accounts/models.py:10
+msgid "Street"
+msgstr "Straatnaam"
+
+#: accounts/models.py:11
+msgid "Number"
+msgstr "Huisnummer"
+
+#: accounts/models.py:12
+msgid "Suffix"
+msgstr "Achtervoegsel"
+
+#: accounts/models.py:13
+msgid "Zipcode"
+msgstr "Postcode"
+
+#: accounts/models.py:14
+msgid "City"
+msgstr "Stad"
+
+#: accounts/models.py:15
+msgid "I would like to be receive project updates by e-mail:"
+msgstr "Ik wil graag op de hoogte gehouden worden via e-mail:"
+
+#: accounts/templates/profile.html:5 information/templates/parent.html:48
+msgid "Profile"
+msgstr "Profiel"
+
+#: accounts/templates/profile.html:8
+msgid ""
+"\n"
+"Thank you for taking the time to help us in our research.\n"
+"First we would like to have your contact data.\n"
+"Without it you won't win any of our prizes.\n"
+"Your personal data will be handled carefully and we won't supply it to third "
+"parties.\n"
+"We will only send you information by email if you tick the last box.\n"
+"If you still rather stay anonymous,\n"
+msgstr ""
+"\n"
+"Alvast bedankt dat U ons wilt helpen met ons onderzoek.\n"
+"Allereerst willen we graag uw contactgegevens hebben.\n"
+"Zonder deze gegevens maakt U geen kans op de prijzen.\n"
+"Uw persoonlijke gegevens zullen zorgvuldig worden behandeld en we zullen ze "
+"niet aan derden verstrekken.\n"
+"We zullen U alleen per e-mail benaderen als U het vinkje onderaan laat "
+"staan.\n"
+"Als je toch liever anoniem blijft,\n"
+
+#: accounts/templates/profile.html:16
+msgid "just go straight to the questionnaire."
+msgstr "ga dan direct naar de enquête."
+
+#: accounts/templates/profile.html:53
+msgid "Submit"
+msgstr "Wijzigen"
+
+#: accounts/templates/registration/logged_out.html:6
+msgid "You have successfully logged out."
+msgstr "U bent nu afgemeld."
+
+#: accounts/templates/registration/login.html:6
+msgid "Your username and password didn't match. Please try again."
+msgstr "Gebruikersnaam en wachtwoord zijn niet herkend. Probeer opnieuw."
+
+#: accounts/templates/registration/login.html:11
+msgid ""
+"\n"
+"    Your account doesn't have access to this page. To proceed,\n"
+"    please login with an account that has access or register as new "
+"respondent.\n"
+"    "
+msgstr ""
+"\n"
+"    Uw gebruiker heeft geen toegang tot deze pagina. Om verder te gaan"
+"    kunt U inloggen of als nieuwe respondent registreren.\n"
+"    "
+
+#: accounts/templates/registration/login.html:16
+msgid "Register as a new respondent"
+msgstr "Meld U aan als nieuwe respondent"
+
+#: accounts/templates/registration/login.html:17
+msgid "or login to see this page."
+msgstr "of log in om deze pagina te bereiken."
+
+#: accounts/templates/registration/register.html:6
+msgid ""
+"\n"
+"Here you will be able to register as a new respondent.\n"
+msgstr ""
+"\n"
+"Hier kunt U zich als nieuwe respondent aanmelden.\n"
+
+#: accounts/templates/registration/register.html:11
+#: accounts/templates/registration/register.html:23
+#: information/templates/parent.html:50
+msgid "Register"
+msgstr "Aanmelden"
+
+#: accounts/templates/registration/register.html:14
+msgid ""
+"\n"
+"Sorry, your registration could not be processed.\n"
+msgstr ""
+"\n"
+"Helaas kon uw aanmelding niet worden verwerkt.\n"
+
+#: information/templates/about.html:5 information/templates/parent.html:53
+msgid "About"
+msgstr "Colofon"
+
+#: information/templates/about.html:7
+msgid "The project"
+msgstr "Het Project"
+
+#: information/templates/about.html:10
+msgid ""
+"\n"
+"Plans for a Virtual PV plant have been circulating within <REDACTED> for "
+"some time now. Recently funds were made available through the merger with "
+"<REDACTED> Nederland to research the possibilities. This project is a "
+"collaboration between REDACTED. Preliminary research is done by four "
+"students of the masters Sustainable Development and Energy Science, as part "
+"of their Consultancy Project. This website is part of that preliminary "
+"research and will be the start of the project in the future. Our main "
+"research goal is to determine if there is sufficient need for the project.\n"
+msgstr ""
+"\n"
+"Al lange tijd worden er binnen REDACTED plannen geopperd om een virtuele "
+"zonnestroomcentrale te ontwikkelen. Recent zijn er fondsen vrijgekomen "
+"dankzij een samenwerking met REDACTED om in Nederland de mogelijkheden te "
+"onderzoeken.\n"
+"Dit project is een samenwerkingsverband tussen REDACTED.\n"
+"Een vooronderzoek wordt nu uitgevoerd door vier studenten van de masters "
+"Sustainable Development en Energy Science, in het kader van het vak "
+"'Consultancy Project'.\n"
+"Deze website is onderdeel van dit vooronderzoek en is een opstap naar het "
+"grotere project in de toekomst.\n"
+"Het belangrijkste doel van dit vooronderzoek is om te bepalen of er genoeg "
+"draagvlak is voor het project.\n"
+
+#: information/templates/about.html:16
+msgid "Project Team"
+msgstr "Projectleden"
+
+#: information/templates/about.html:19
+msgid ""
+"\n"
+"Our project team consists of:\n"
+msgstr ""
+"\n"
+"Ons team bestaat uit de volgende leden:\n"
+
+#: information/templates/about.html:53
+msgid "Website"
+msgstr "Website"
+
+#: information/templates/about.html:55
+msgid ""
+"\n"
+"This website is developed and maintained by Paul Frederiks.\n"
+"It is hosted at <a href=\"http://www.quantact.com\">Quantact</a> using the "
+"OpenVZ 128 plan. The site is developed using the <a href=\"http://www."
+"djangoproject.com\">Django Framework</a>. The design is based on a "
+"stylesheet made publicly available by <a href=\"http://www.contenteddesigns."
+"org\">Contended Design</a>.\n"
+msgstr ""
+"\n"
+"Deze website is ontwikkeld en wordt onderhouden door <a href=\"/contact.html"
+"\">Paul Frederiks</a>.Het wordt gehost bij <a href=\"http://www.quantact.com"
+"\">Quantact</a>, gebruik makend van het OpenVZ 128 plan. De site is "
+"ontwikkeld met behulp van het  <a href=\"http://www.djangoproject.com"
+"\">Django raamwerk</a>. Het ontwerp is gebaseerd op een publieke stylesheet "
+"van <a href=\"http://www.contenteddesigns.org\">Contended Design</a>.\n"
+
+
+#: information/templates/index.html:6 information/templates/parent.html:45
+msgid "Introduction"
+msgstr "Introductie"
+
+#: information/templates/index.html:9
+msgid ""
+"\n"
+"Photovoltaic solar power will be of key importance in the transition to a "
+"renewable energy society in the Netherlands. PV power plants can vary from "
+"small to very large sized installations, de facto being decentralized power "
+"plants. This is in contrast to fossil fueled power plants that traditionally "
+"are centralized power plants. Installing more and more PV plants will shift "
+"electricity generation from a centralized to a decentralized system.\n"
+msgstr ""
+"\n"
+"Fotovoltaïsche zonnestroom zal van groot belang zijn bij de overgang naar "
+"een duurzame samenleving in Nederland. Zonnestroomcentrales kunnen variëren "
+"van klein naar zeer groot, de facto zijn het gedecentraliseerde "
+"stroomcentrales. Dit in tegenstelling tot conventionele centrales die groot "
+"en gecentraliseerd zijn. Indien er meer zonnestroomcentrales worden "
+"geïnstalleerd zal electriciteitsproductie van een gecentraliseerd naar een "
+"gedecentraliseerd systeem over gaan.\n"
+
+
+#: information/templates/index.html:14
+msgid ""
+"\n"
+"Presently in the Netherlands there are many private PV panel owners who "
+"produce small amounts of electricity. These PV installations do not always "
+"operate at optimum performance. Small malfunctions are hard to notice by "
+"studying your electricity bill alone. In a future where solar power directly "
+"competes with conventional power another issue emerges. When individual PV "
+"owners need to negotiate on trading their generated electricity with large "
+"energy companies, they will have a disadvantage. The energy company will "
+"have far better information about the current market situation. A Virtual PV "
+"Plant, uniting many individual PV owners, might be the solution to address "
+"these issues.\n"
+msgstr ""
+"\n"
+"Tegenwoordig kent Nederland vele eigenaren van zonnepanelen die kleine "
+"hoeveelheden electriciteit produceren. Deze zonnestroominstallatie werken "
+"niet altijd optimaal. Kleine gebreken zijn moeilijk op te merken als je "
+"alleen naar de energierekening kijkt. Als in de toekomst zonnestroom direct "
+"met conventionele stroom concurreert, speelt er nog een andere kwestie. "
+"Wanneer individuele zonnepaneeleigenaren moeten onderhandelen met "
+"energiemaatschappijen, zijn zij in het nadeel. De energiemaatschappijen "
+"hebben veel betere informatie over de actuele situatie op de energiemarkt. "
+"Een virtuele zonnestroomcentrale, die meerdere individuele "
+"zonnepaneeleigenaren samenbrengt, kan een oplossing zijn voor deze "
+"kwesties.\n"
+
+
+#: information/templates/index.html:19
+msgid "What is a virtual PV Plant?"
+msgstr "Wat is een virtuele zonnestroomcentrale?"
+
+#: information/templates/index.html:20
+msgid ""
+"\n"
+"A virtual PV plant is a web portal where electricity production data of a "
+"large number of individual PV panels is collected, aggregated and analyzed. "
+"PV panel owners will be able to monitor the performance of their panels "
+"through the web. If malfunctioning is detected owners are notified by email "
+"or other means. In the future a Virtual PV Plant could act as a cooperation, "
+"selling electricity for better prices than individuals can.\n"
+msgstr ""
+"\n"
+"Een virtuele zonnestroomcentrale is een web-portaal waar productiegegevens "
+"van een groot aantal zonnepanelen\n"
+"in het land wordt verzameld, samengevoegd en geanalyseerd.\n"
+"Eigenaren van zonnepanelen kunnen daarmee de prestaties van hun panelen "
+"controleren op het internet.\n"
+"Wanneer er gebreken worden geconstateerd, ontvangt een eigenaar bericht per "
+"e-mail.\n"
+"In de toekomst kan de virtuele zonnestroomcentrale als een coöperatie "
+"handelen, door electriciteit voor een goede prijs te verkopen.\n"
+
+
+#: information/templates/index.html:24
+msgid "Preliminary research"
+msgstr "Vooronderzoek"
+
+#: information/templates/index.html:26
+msgid ""
+"\n"
+"Before this project can be started we need to know if their is sufficient "
+"basis.\n"
+"Another question is how the project should be funded.\n"
+"To answer these questions a preliminary study is done at the Utrecht "
+"University.\n"
+"Part of that study is to reach as many dutch PV owners to do a questionnaire "
+"on our project.\n"
+"As an incentive we give away two solar powered gadgets to our respondents in "
+"a raffle.\n"
+"If you are a PV owner please proceed to our description of our prizes.\n"
+msgstr ""
+"\n"
+"Voor dat aan de virtuele zonnestroomcentrale gewerkt kan worden, willen wij "
+"bepalen of er voldoende draagvlak is.\n"
+"Tevens moet het nog duidelijk worden hoe dit project gefinancierd gaat "
+"worden.\n"
+"Om deze vragen te beantwoorden wordt er nu een vooronderzoek gedaan op de "
+"Universiteit Utrecht.\n"
+"Een enquête die zoveel mogelijk zonnepaneeleigenaren moet bereiken is "
+"onderdeel van deze studie.\n"
+"Om u te stimuleren mee te doen geven wij twee gadgets op zonne-energie weg "
+"bij een trekking onder onze respondenten.\n"
+"Bent U een eigenaar van zonnepanelen? Ga dan verder naar de beschrijving van "
+"onze prijzen.\n"
+
+
+#: information/templates/index.html:34
+msgid ""
+"Before you are able to fill out the questionnaire we would like you to "
+"register first."
+msgstr "Voordat je de enquete invult, moet je je registreren"
+
+#: information/templates/index.html:37
+msgid "Show me the prizes >>>"
+msgstr "Laat me de prijzen zien >>>"
+
+#: information/templates/parent.html:8
+msgid "Research Project: Virtual Solar Power Plant"
+msgstr "Virtuele Zonnestroomcentrale"
+
+#: information/templates/parent.html:30 questionnaire/templates/thanks.html:11
+msgid "Log out"
+msgstr "Afmelden"
+
+#: information/templates/parent.html:32
+msgid "Log in"
+msgstr "Inloggen"
+
+#: information/templates/parent.html:37
+msgid "Virtual PV Plant"
+msgstr "Virtuele Zonnestroomcentrale"
+
+#: information/templates/parent.html:39
+msgid "Research on the development of a virtual PV Plant in the Netherlands"
+msgstr "Ontwikkeling van een virtuele zonnestroomcentrale in Nederland"
+
+#: information/templates/parent.html:46 information/templates/prizes.html:6
+msgid "Prizes"
+msgstr "Prijzen"
+
+#: information/templates/parent.html:52
+#: questionnaire/templates/not_logged_in.html:5
+#: questionnaire/templates/questions.html:15
+msgid "Questionnaire"
+msgstr "Enquête"
+
+#: information/templates/parent.html:69
+msgid "Paul Frederiks"
+msgstr "Paul Frederiks"
+
+
+#: information/templates/parent.html:73
+msgid "Contact"
+msgstr "Contact"
+
+#: information/templates/prizes.html:10
+msgid ""
+"\n"
+"We will hold a raffle for everyone who participates in our survey.\n"
+"We have two prizes to give away.\n"
+"The first is a solar charger for mobile phones and everything with an USB "
+"charge connector.\n"
+"The second prize is a toy orangutan that can climb ropes on solar power.\n"
+msgstr ""
+"\n"
+"Een ieder die onze enquête invult maakt kans op een zonne-energie gadget.\n"
+"We hebben twee prijzen om weg te geven.\n"
+"De eerste prijs is een oplader die vele mobiele telefoons en alles met een "
+"USB aansluiting kan opladen.\n"
+"De tweede prijs is een speelgoed Oerang-oetan die touw kan klimmen op zonne-"
+"energie.\n"
+
+
+
+#: information/templates/prizes.html:19
+msgid "Draw"
+msgstr "Trekking"
+
+#: information/templates/prizes.html:21
+msgid ""
+"\n"
+"Every respondent before june 14th who has given a valid contact data and "
+"filled out the questionnaire is included in the drawing of the winner.\n"
+"We will notify the winners per e-mail and send out the prizes by mail.\n"
+msgstr ""
+"\n"
+"Iedereen die voor 14 juni 2009 zich heeft aangemeld met juiste "
+"contactgegevens en de enquête heeft ingevuld, maakt kans op deze prijzen.\n"
+"We zullen de winnaars per e-mail berichten en per post de prijs toesturen.\n"
+
+
+#: information/templates/prizes.html:25
+msgid "I would like to register as a respondent >>>"
+msgstr "Ik wil me graag aanmelden voor de enquête >>>"
+
+#: questionnaire/models.py:8
+msgid "How did you get the idea to buy PV panels and install them?"
+msgstr "Hoe bent U op het idee gekomen zonnepanelen te kopen en te installeren?"
+
+#: questionnaire/models.py:10
+msgid "I want to solve World's energy crisis and/or prevent global warming"
+msgstr ""
+"Ik wil meehelpen aan het oplossen van de energiecrisis en/of de opwarming "
+"van de aarde"
+
+#: questionnaire/models.py:11
+msgid "I want to make profit"
+msgstr "Ik wil winst maken"
+#: questionnaire/models.py:12
+msgid "Both"
+msgstr "Beide"
+
+#: questionnaire/models.py:14
+msgid "How long have you owned a solar panel system?"
+msgstr "Hoe lang bent U in het in het bezit van Het Projectzonnepanelen?"
+
+#: questionnaire/models.py:16
+msgid "Less than 6 months"
+msgstr "Minder dan 6 maanden"
+
+#: questionnaire/models.py:17
+msgid "Between 6 months and 1 year"
+msgstr "Tussen de 6 maanden en 1 jaar"
+
+#: questionnaire/models.py:18
+msgid "Between 1 year and 2 years"
+msgstr "Tussen de 1 en 2 jaar"
+
+#: questionnaire/models.py:19
+msgid "Between 2 and 5 years"
+msgstr "Tussen de 2 en 5 jaar"
+
+#: questionnaire/models.py:20
+msgid "More than 5 years"
+msgstr "Meer dan 5 jaar"
+
+#: questionnaire/models.py:22
+msgid "How much capacity do you have currently installed?"
+msgstr "Hoeveel capaciteit heeft U momenteel geinstalleerd?"
+
+#: questionnaire/models.py:24
+msgid "Less than 0,6 kW"
+msgstr "Minder dan 0,6 kW"
+
+#: questionnaire/models.py:25
+msgid "Between 0,6 kW and 3.5 kW"
+msgstr "Tussen de 0,6 kW en 3,5 kW"
+
+#: questionnaire/models.py:26
+msgid "Between 3.5 kW and 15 kW"
+msgstr "Tussen de 3,5 kW en de 15 kW"
+
+#: questionnaire/models.py:27
+msgid "More than 15 kW"
+msgstr "Meer dan 15 kW"
+
+#: questionnaire/models.py:29
+msgid ""
+"Are you currently selling or have you ever sold electricity to the national "
+"grid since you have installed the solar panels?"
+msgstr ""
+"Heeft U stroom teruggeleverd aan het landelijke stroomnet sinds U uw "
+"zonnepanelen heeft geinstalleerd?"
+
+#: questionnaire/models.py:31 questionnaire/models.py:38
+#: questionnaire/models.py:59 questionnaire/models.py:72
+#: questionnaire/models.py:87 questionnaire/models.py:95
+#: questionnaire/models.py:110
+msgid "Yes"
+msgstr "Ja"
+
+#: questionnaire/models.py:32
+msgid "No (skip the next question)"
+msgstr "Nee (sla de volgende vraag over"
+
+#: questionnaire/models.py:34
+msgid ""
+"Could you give an estimate of the electrity in kWh you have sold last year "
+"(digits only)?"
+msgstr ""
+"Kunt U een schatting maken van de hoeveelheid electriciteit die  U vorig "
+"jaar heeft verkocht in kWh? (alleen cijfers invoeren)"
+
+#: questionnaire/models.py:36
+msgid "Do you receive support from the SDE?"
+msgstr "Ontvangt U subsidie via de SDE?"
+
+#: questionnaire/models.py:39 questionnaire/models.py:60
+#: questionnaire/models.py:88 questionnaire/models.py:96
+#: questionnaire/models.py:111
+msgid "No"
+msgstr "Nee"
+
+#: questionnaire/models.py:40
+msgid "My application is still in process"
+msgstr "Mijn aanvraag wordt nog verwerkt"
+
+#: questionnaire/models.py:42
+msgid "Do you currently have performance monitoring done on your PV system?"
+msgstr "Heeft U momenteel prestatie monitoring op uw zonnepanelen?"
+
+#: questionnaire/models.py:44
+msgid "I do it myself"
+msgstr "Ik doe het zelf"
+
+#: questionnaire/models.py:45
+msgid "I have external company doing this for me"
+msgstr "Ik maak gebruik van een extern bedrijf"
+
+#: questionnaire/models.py:46
+msgid "I have no performance monitoring"
+msgstr "Ik heb geen prestatie monitoring"
+
+#: questionnaire/models.py:48
+msgid "What type of metering  equipment do you have?"
+msgstr "Wat voor meetapparatuur heeft U?"
+
+#: questionnaire/models.py:50
+msgid "Analog meter"
+msgstr "Een analoge meter"
+
+#: questionnaire/models.py:51
+msgid "Digital meter - with internet connection"
+msgstr "Een digitale meter - met een internetverbinding"
+
+#: questionnaire/models.py:52
+msgid "Digital meter - without internet connection"
+msgstr "Een digitale meter - zonder een internetverbinding"
+
+#: questionnaire/models.py:54
+msgid ""
+"What is the brand and model of your metering equipment?\n"
+" Brand:"
+msgstr ""
+"Wat is het merk en model van uw meetapparatuur?\n"
+" Merk:"
+
+#: questionnaire/models.py:55
+msgid "Model:"
+msgstr "Model:"
+
+#: questionnaire/models.py:57
+msgid "Does your inverter have an internet function?"
+msgstr "Heeft uw omvormer internetfunctionaliteit?"
+
+#: questionnaire/models.py:61
+msgid "I don't know"
+msgstr "Ik weet het niet"
+
+#: questionnaire/models.py:63
+msgid "What kind of internet connection do you have in your home?"
+msgstr "Wat voor een internetverbinding heeft U in huis?"
+
+#: questionnaire/models.py:65
+msgid "Dial-up (56k)"
+msgstr "Inbelverbinding (56k)"
+
+#: questionnaire/models.py:66
+msgid "ISDN"
+msgstr "ISDN"
+
+#: questionnaire/models.py:67
+msgid "Broadband (ADSL, fiber, cable)"
+msgstr "Breedbandverbinding (ADSL, glasvezel, kabel)"
+
+#: questionnaire/models.py:66
+msgid "Satellite internet"
+msgstr "Satellietverbinding"
+
+#: questionnaire/models.py:68
+msgid ""
+"Did you ever experience any malfunctioning of the solar panels since "
+"installation?"
+msgstr ""
+"Heeft U sinds de installatie van uw zonnepanelen last van defecten gehad?"
+
+#: questionnaire/models.py:71
+msgid "No (Skip next 2 question)"
+msgstr "Nee (Sla de volgende 2 vragen over)"
+
+#: questionnaire/models.py:73
+msgid "How did you discover that your system was not functioning well?"
+msgstr "Hoe heeft U ontdekt dat uw systeem niet naar behoren functioneerde?"
+
+#: questionnaire/models.py:75
+msgid "By regularly checking the meter"
+msgstr "Door regelmatig de meter te controleren"
+
+#: questionnaire/models.py:76
+msgid "Through the electricity bill"
+msgstr "Door bestudering van de energienota"
+
+#: questionnaire/models.py:77
+msgid "By checking the display on the inverter"
+msgstr "Door het display van de omvormer te controleren"
+
+#: questionnaire/models.py:79
+msgid ""
+"How many times did you have to call a maintenance firm to repair any "
+"malfunctioning of the system?"
+msgstr ""
+"Hoe vaak heeft U een onderhoudsbedrijf moeten bellen om gebreken te "
+"repareren?"
+
+#: questionnaire/models.py:81
+msgid "Could you give an estimate of your yearly maintenance costs?"
+msgstr "Kunt U een schatting geven van uw jaarlijke onderhoudskosten?"
+
+#: questionnaire/models.py:83
+msgid ""
+"Would you be interested in constant monitoring of the solar panels to "
+"optimize performance and reduce risk of lower yields?"
+msgstr ""
+"Zou U geinterreseerd zijn in constante monitoring van uw zonnepanelen om "
+"optimale prestatie te garanderen en het risico op lage opbrengsten te "
+"minimaliseren?"
+
+#: questionnaire/models.py:89
+msgid ""
+"In the web-portal, together with other information, there will be tips on "
+"how to improve the efficiency of your PV system, Do it yourself manuals, FAQ "
+"over most common malfunctions, recommended list of producers of latest, more "
+"efficient and reliable PV equipment - would that stimulate you to "
+"participate?"
+msgstr ""
+"Op het web portaal, naast andere informatie, kunt U straks tips vinden over "
+"hoehet rendement van uw zonnepanelen verbeterd kan worden, doe-het-zelf "
+"handleidingen, Veelgestelde Vragen over veel voorkomende defecten, en de "
+"laatste ontwikkelingen op het gebied van zonnepanelen. Zou dat U stimuleren "
+"te participeren in het project?"
+
+#: questionnaire/models.py:94
+msgid ""
+"How much would you be willing to pay per year (in euros) to be a member of "
+"the Virtual PV Plant? (digits only, decimals after a dot)"
+msgstr ""
+"Hoeveel bent U evt. bereid jaarlijks te betalen om lid te zijn van de "
+"Virtuele zonnestroomcentrale? (alleen cijfers, decimalen na een punt)"
+
+#: questionnaire/models.py:95
+msgid ""
+"Instead of a fixed amount, we could ask for a percentage of you yearly "
+"revenues selling electricity instead. What would you consider a fair "
+"percentage? (digits only, decimals after a dot)"
+msgstr ""
+"In plaats van een vast bedrag kunnen we ook een percentage vragen van de "
+"opbrengsten van uw zonnepanelen. Wat zou U als een schappelijk percentage "
+"zien? (alleen cijfers, decimalen na een punt)"
+
+#: questionnaire/models.py:96
+msgid "What would be your prefered pay option?"
+msgstr "Welke contributiemethode spreekt U het meest aan?"
+
+#: questionnaire/models.py:98
+msgid "Fixed Amount"
+msgstr "Een vast bedrag per jaar"
+
+#: questionnaire/models.py:99
+msgid "Percentage of revenue"
+msgstr "Een percentage van de opbrengst"
+
+#: questionnaire/models.py:101
+msgid ""
+"What would be your motivation to join (or not to join) the virtual PV Plant?"
+msgstr ""
+"Wat zijn uw redenen om wel of niet deel te nemen aan de virtuele "
+"zonnestroomcentrale"
+
+#: questionnaire/models.py:103
+msgid ""
+"Would you be willing to spread the word to other PV panel owners of this "
+"system?"
+msgstr ""
+"Bent U bereid mond-op-mond reclame voor de virtuele zonnestroomcentrale "
+"maken?"
+
+

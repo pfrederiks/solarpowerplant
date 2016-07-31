@@ -1,0 +1,41 @@
+{% extends "parent.html" %}
+{% load i18n %}
+{% load static %}
+{% block contents %}
+<img class="image_section_right" src="{% static "img/zonnepaneel.gif" %}" alt="source: http://www.de-volder.be"/>
+<h2>{% trans "Introduction" %}</h2>
+
+<p>
+{% blocktrans %}
+Photovoltaic solar power will be of key importance in the transition to a renewable energy society in the Netherlands. PV power plants can vary from small to very large sized installations, de facto being decentralized power plants. This is in contrast to fossil fueled power plants that traditionally are centralized power plants. Installing more and more PV plants will shift electricity generation from a centralized to a decentralized system.
+{% endblocktrans %}
+</p>
+<p>
+{% blocktrans %}
+Presently in the Netherlands there are many private PV panel owners who produce small amounts of electricity. These PV installations do not always operate at optimum performance. Small malfunctions are hard to notice by studying your electricity bill alone. In a future where solar power directly competes with conventional power another issue emerges. When individual PV owners need to negotiate on trading their generated electricity with large energy companies, they will have a disadvantage. The energy company will have far better information about the current market situation. A Virtual PV Plant, uniting many individual PV owners, might be the solution to address these issues.
+{% endblocktrans %}
+</p>
+
+<h2>{% trans "What is a virtual PV Plant?" %}</h2>
+{% blocktrans %}
+A virtual PV plant is a web portal where electricity production data of a large number of individual PV panels is collected, aggregated and analyzed. PV panel owners will be able to monitor the performance of their panels through the web. If malfunctioning is detected owners are notified by email or other means. In the future a Virtual PV Plant could act as a cooperation, selling electricity for better prices than individuals can.
+{% endblocktrans %}
+
+<h2>{% trans "Preliminary research" %}</h2>
+<p>
+{% blocktrans %}
+Before this project can be started we need to know if their is sufficient basis.
+Another question is how the project should be funded.
+To answer these questions a preliminary study is done at the Utrecht University.
+Part of that study is to reach as many dutch PV owners to do a questionnaire on our project.
+As an incentive we give away two solar powered gadgets to our respondents in a raffle.
+If you are a PV owner please proceed to our description of our prizes.
+{% endblocktrans %}
+{% trans "Before you are able to fill out the questionnaire we would like you to register first." %}
+</p>
+
+<h3><a href="/prizes/">{% trans "Show me the prizes >>>" %}</a></h3>
+
+{% endblock %}
+
+

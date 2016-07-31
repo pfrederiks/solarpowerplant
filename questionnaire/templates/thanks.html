@@ -1,0 +1,12 @@
+{% extends "parent.html" %}
+{% load i18n %}
+
+{% block contents %}
+<h1>{% trans "Thanks for filling out our questionnaire!" %}</h1>
+<p>
+{% blocktrans %}
+Please log out with the link below. Maybe you find new information you would like to add. You have the opportunity to do so by logging in again.
+{% endblocktrans %}
+</p>
+<a href="{% url 'logout' %}">{% trans "Log out" %}</a>
+{% endblock %}

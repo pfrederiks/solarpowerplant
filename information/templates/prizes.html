@@ -1,0 +1,27 @@
+{% extends "parent.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block contents %}
+<h1>{% trans "Prizes" %}</h1>
+<p>
+
+<img class="image_paragraph_right" src="{% static "img/solar-climbing-orangutan.jpg" %}" alt="Solar climbing orangutan" />
+{% blocktrans %}
+We will hold a raffle for everyone who participates in our survey.
+We have two prizes to give away.
+The first is a solar charger for mobile phones and everything with an USB charge connector.
+The second prize is a toy orangutan that can climb ropes on solar power.
+{% endblocktrans %}
+<img class="image_paragraph_left" src="{% static "img/charger.jpg" %}" alt="Solar charger" />
+</p>
+
+<h1>{% trans "Draw" %}</h1>
+<p>
+{% blocktrans %}
+Every respondent before june 14th who has given a valid contact data and filled out the questionnaire is included in the drawing of the winner.
+We will notify the winners per e-mail and send out the prizes by mail.
+{% endblocktrans %}
+<h3><a href="{% url 'register' %}">{% trans "I would like to register as a respondent >>>" %}</a></h3>
+</p>
+{% endblock %}

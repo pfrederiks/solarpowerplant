@@ -1,0 +1,18 @@
+{% extends "parent.html" %}
+{% load i18n %}
+
+{% block contents %}
+<h1>{% trans "Questionnaire" %}</h1>
+
+<p>
+{% blocktrans %}
+You are currently not signed in.
+Before you can do our questionnaire you need to register as a respondent.
+{% endblocktrans %}
+</p>
+
+<h3><a href="{% url 'register' %}">{% trans "I would like to sign in." %}</a></h3>
+<h3><a href="{% url 'prizes' %}>{% trans "Remind me why I should participate." %}</a></h3>
+
+{% endblock %}
+

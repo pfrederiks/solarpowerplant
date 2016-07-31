@@ -1,0 +1,34 @@
+{% extends "parent.html" %}
+{% load i18n %}
+
+{% block contents %}
+
+{% if form.errors %}
+<p class="errors">
+{% blocktrans %}
+Unfortunately not all of your answers could be processed.
+Please check your answers.
+{% endblocktrans %}
+<p>
+{% endif %}
+
+<h1>{% trans "Questionnaire" %}</h1>
+<p>
+<em>
+{% blocktrans %}
+Below are the questions we would like to ask you.
+If you can't answer all questions right now,
+please make a guess and log in later to change your answers.
+{% endblocktrans %}
+</em>
+</p>
+
+
+<p>
+<form action="/questionnaire/" method="POST">
+        {% csrf_token %}
+	{{ form.as_p }}
+	<input type="submit" value="Submit" />
+</form>
+</p>
+{% endblock %}
