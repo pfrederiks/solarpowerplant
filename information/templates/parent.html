@@ -42,15 +42,15 @@
 
 {% block nav %}
 <ul id="nav">
-<li><a {% if section == "introduction" %}class="selected"{% endif %} href="/">{% trans "Introduction" %}</a></li>
-<li><a {% if section == "prizes" %}class="selected"{% endif %} href="/prizes/">{% trans "Prizes" %}</a></li>
+<li><a {% if request.path == "/" %}class="selected"{% endif %} href="/">{% trans "Introduction" %}</a></li>
+<li><a {% if request.path == "/prizes/" %}class="selected"{% endif %} href="/prizes/">{% trans "Prizes" %}</a></li>
 {% if request.user.is_authenticated %}
-<li><a {% if section == "profile" %}class="selected"{% endif %} href="/accounts/profile/">{% trans "Profile" %}</a></li>
+<li><a {% if request.path == "/accounts/profile/" %}class="selected"{% endif %} href="/accounts/profile/">{% trans "Profile" %}</a></li>
 {% else %}
-<li><a {% if section == "register" %}class="selected"{% endif %} href="/accounts/register/">{% trans "Register" %}</a></li>
+<li><a {% if request.path == "/accounts/register/" %}class="selected"{% endif %} href="/accounts/register/">{% trans "Register" %}</a></li>
 {% endif %}
-<li><a {% if section == "questionnaire" %}class="selected"{% endif %} href="/questionnaire/">{%trans "Questionnaire" %}</a></li>
-<li><a {% if section == "about" %}class="selected"{% endif %} href="/about/">{% trans "About" %}</a></li>
+<li><a {% if request.path == "/questionnaire/" %}class="selected"{% endif %} href="/questionnaire/">{%trans "Questionnaire" %}</a></li>
+<li><a {% if request.path == "/about/" %}class="selected"{% endif %} href="/about/">{% trans "About" %}</a></li>
 </ul>
 {% endblock %}
 
