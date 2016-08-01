@@ -18,11 +18,11 @@
     <form action="{% url 'set_language' %}" method="post">
 {% csrf_token %}
 <input name="next" type="hidden" value="" />
-{% if LANGUAGE_CODE == "nl_nl" %}
-<input name="language" type="hidden" value="en_us" />
+{% if LANGUAGE_CODE == "nl" %}
+<input name="language" type="hidden" value="en" />
 <input type="submit" value="View this page in English" />
 {% else %}
-<input name="language" type="hidden" value="nl_nl" />
+<input name="language" type="hidden" value="nl" />
 <input type="submit" value="Bekijk deze Pagina in het Nederlands" />
 {% endif %}
 </form>
