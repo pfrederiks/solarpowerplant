@@ -28,8 +28,3 @@ class QuestionsView(LoginRequiredMixin, View):
 class ThanksView(TemplateView):
     template_name = 'thanks.html'
 
-    def get_context_data(self, **kwargs):
-        context = super(ThanksView, self).get_context_data(**kwargs)
-        context['section'] = "thanks"
-
-
